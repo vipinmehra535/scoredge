@@ -14,13 +14,13 @@ class _LoginPageState extends State<LoginPage> {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Color(0xFF23a296),
-        title: const Text(
+        title: Text(
           "Health",
           style: TextStyle(fontWeight: FontWeight.bold),
         ),
         centerTitle: true,
         leading: Padding(
-          padding: const EdgeInsets.only(left: 20.0),
+          padding: EdgeInsets.only(left: 20.0),
           child: Image.asset(
             'assets/image/score_edge.png',
             fit: BoxFit.fill,
